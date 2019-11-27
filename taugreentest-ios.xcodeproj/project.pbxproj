@@ -9,21 +9,25 @@
 /* Begin PBXBuildFile section */
 		0862CD45238DF24300B9872B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0862CD44238DF24300B9872B /* AppDelegate.swift */; };
 		0862CD47238DF24300B9872B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0862CD46238DF24300B9872B /* SceneDelegate.swift */; };
-		0862CD49238DF24300B9872B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0862CD48238DF24300B9872B /* ViewController.swift */; };
 		0862CD4C238DF24300B9872B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0862CD4A238DF24300B9872B /* Main.storyboard */; };
 		0862CD4E238DF24500B9872B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0862CD4D238DF24500B9872B /* Assets.xcassets */; };
 		0862CD51238DF24500B9872B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0862CD4F238DF24500B9872B /* LaunchScreen.storyboard */; };
+		0862CD63238E048800B9872B /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0862CD62238E048800B9872B /* MapViewController.swift */; };
+		D93D747E19BA3F80B7850690 /* libPods-taugreentest-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B3B40EAD4568A746B72FCA4 /* libPods-taugreentest-ios.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0862CD41238DF24300B9872B /* taugreentest-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "taugreentest-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0862CD44238DF24300B9872B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0862CD46238DF24300B9872B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0862CD48238DF24300B9872B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0862CD4B238DF24300B9872B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0862CD4D238DF24500B9872B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0862CD50238DF24500B9872B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0862CD52238DF24500B9872B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0862CD62238E048800B9872B /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		14FA37EFA1E5F86C2F212B5B /* Pods-taugreentest-ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-taugreentest-ios.release.xcconfig"; path = "Target Support Files/Pods-taugreentest-ios/Pods-taugreentest-ios.release.xcconfig"; sourceTree = "<group>"; };
+		2B3B40EAD4568A746B72FCA4 /* libPods-taugreentest-ios.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-taugreentest-ios.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A030C98E2AB122AE904D8E17 /* Pods-taugreentest-ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-taugreentest-ios.debug.xcconfig"; path = "Target Support Files/Pods-taugreentest-ios/Pods-taugreentest-ios.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D93D747E19BA3F80B7850690 /* libPods-taugreentest-ios.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +47,8 @@
 			children = (
 				0862CD43238DF24300B9872B /* taugreentest-ios */,
 				0862CD42238DF24300B9872B /* Products */,
+				20C01AB42B5C9FDB36BB6D94 /* Pods */,
+				0D828C6A4E033AEF5A105783 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +63,97 @@
 		0862CD43238DF24300B9872B /* taugreentest-ios */ = {
 			isa = PBXGroup;
 			children = (
-				0862CD44238DF24300B9872B /* AppDelegate.swift */,
-				0862CD46238DF24300B9872B /* SceneDelegate.swift */,
-				0862CD48238DF24300B9872B /* ViewController.swift */,
-				0862CD4A238DF24300B9872B /* Main.storyboard */,
+				0862CD59238DF25A00B9872B /* mainscreen */,
+				0862CD58238DF24D00B9872B /* common */,
 				0862CD4D238DF24500B9872B /* Assets.xcassets */,
 				0862CD4F238DF24500B9872B /* LaunchScreen.storyboard */,
 				0862CD52238DF24500B9872B /* Info.plist */,
 			);
 			path = "taugreentest-ios";
+			sourceTree = "<group>";
+		};
+		0862CD58238DF24D00B9872B /* common */ = {
+			isa = PBXGroup;
+			children = (
+				0862CD60238DF2FF00B9872B /* app */,
+			);
+			path = common;
+			sourceTree = "<group>";
+		};
+		0862CD59238DF25A00B9872B /* mainscreen */ = {
+			isa = PBXGroup;
+			children = (
+				0862CD5D238DF2C600B9872B /* mapview */,
+				0862CD5A238DF27F00B9872B /* view */,
+			);
+			path = mainscreen;
+			sourceTree = "<group>";
+		};
+		0862CD5A238DF27F00B9872B /* view */ = {
+			isa = PBXGroup;
+			children = (
+				0862CD4A238DF24300B9872B /* Main.storyboard */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		0862CD5D238DF2C600B9872B /* mapview */ = {
+			isa = PBXGroup;
+			children = (
+				0862CD61238DF30F00B9872B /* model */,
+				0862CD5F238DF2DC00B9872B /* presenter */,
+				0862CD5E238DF2D000B9872B /* view */,
+			);
+			path = mapview;
+			sourceTree = "<group>";
+		};
+		0862CD5E238DF2D000B9872B /* view */ = {
+			isa = PBXGroup;
+			children = (
+				0862CD62238E048800B9872B /* MapViewController.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		0862CD5F238DF2DC00B9872B /* presenter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = presenter;
+			sourceTree = "<group>";
+		};
+		0862CD60238DF2FF00B9872B /* app */ = {
+			isa = PBXGroup;
+			children = (
+				0862CD44238DF24300B9872B /* AppDelegate.swift */,
+				0862CD46238DF24300B9872B /* SceneDelegate.swift */,
+			);
+			path = app;
+			sourceTree = "<group>";
+		};
+		0862CD61238DF30F00B9872B /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		0D828C6A4E033AEF5A105783 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2B3B40EAD4568A746B72FCA4 /* libPods-taugreentest-ios.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		20C01AB42B5C9FDB36BB6D94 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A030C98E2AB122AE904D8E17 /* Pods-taugreentest-ios.debug.xcconfig */,
+				14FA37EFA1E5F86C2F212B5B /* Pods-taugreentest-ios.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +163,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0862CD55238DF24500B9872B /* Build configuration list for PBXNativeTarget "taugreentest-ios" */;
 			buildPhases = (
+				E7EB999F241468876EC90994 /* [CP] Check Pods Manifest.lock */,
 				0862CD3D238DF24300B9872B /* Sources */,
 				0862CD3E238DF24300B9872B /* Frameworks */,
 				0862CD3F238DF24300B9872B /* Resources */,
+				10F56D77150AFDE805DA18ED /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -133,13 +224,55 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		10F56D77150AFDE805DA18ED /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-taugreentest-ios/Pods-taugreentest-ios-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-taugreentest-ios/Pods-taugreentest-ios-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-taugreentest-ios/Pods-taugreentest-ios-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E7EB999F241468876EC90994 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-taugreentest-ios-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0862CD3D238DF24300B9872B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0862CD49238DF24300B9872B /* ViewController.swift in Sources */,
 				0862CD45238DF24300B9872B /* AppDelegate.swift in Sources */,
+				0862CD63238E048800B9872B /* MapViewController.swift in Sources */,
 				0862CD47238DF24300B9872B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,6 +415,7 @@
 		};
 		0862CD56238DF24500B9872B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A030C98E2AB122AE904D8E17 /* Pods-taugreentest-ios.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +434,7 @@
 		};
 		0862CD57238DF24500B9872B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14FA37EFA1E5F86C2F212B5B /* Pods-taugreentest-ios.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ybM-Yf-Xj7">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Map-->
+        <scene sceneID="mCx-ti-4Rz">
+            <objects>
+                <viewController id="ZO2-bs-XTB" customClass="MapViewController" customModule="taugreentest_ios" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ybb-9x-Shm">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="aVK-H1-EzH"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Map" image="map_24px" selectedImage="map_24px" id="mgI-bL-Csy"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1e3-hc-KNz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="13" y="231"/>
+        </scene>
+        <!--Support-->
+        <scene sceneID="jFb-us-xLx">
+            <objects>
+                <viewController id="0xa-OE-58f" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="2tL-ph-Qvt">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Support is not implemented yet" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3fC-N2-MBO">
+                                <rect key="frame" x="87" y="437.5" width="240.5" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="3fC-N2-MBO" firstAttribute="centerY" secondItem="2tL-ph-Qvt" secondAttribute="centerY" id="aE3-Lz-ofO"/>
+                            <constraint firstItem="3fC-N2-MBO" firstAttribute="centerX" secondItem="2tL-ph-Qvt" secondAttribute="centerX" id="mwy-Ko-ytS"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="v44-tR-7l5"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Support" image="forum_24px" selectedImage="forum_24px" id="i9d-bo-DQP"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xBG-SM-hhy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="725" y="230"/>
+        </scene>
+        <!--Stations-->
+        <scene sceneID="sGu-FG-92S">
+            <objects>
+                <viewController id="jK1-jn-1xD" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="1jj-jd-zI1">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Stations is not implemented yet" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sk3-yN-VmA">
+                                <rect key="frame" x="86.5" y="437.5" width="241" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="Sk3-yN-VmA" firstAttribute="centerY" secondItem="1jj-jd-zI1" secondAttribute="centerY" id="cXG-n6-ZpA"/>
+                            <constraint firstItem="Sk3-yN-VmA" firstAttribute="centerX" secondItem="1jj-jd-zI1" secondAttribute="centerX" id="gCg-vI-5nf"/>
+                            <constraint firstItem="Sk3-yN-VmA" firstAttribute="centerY" secondItem="1jj-jd-zI1" secondAttribute="centerY" id="gwS-ub-shf"/>
+                            <constraint firstItem="Sk3-yN-VmA" firstAttribute="centerY" secondItem="1jj-jd-zI1" secondAttribute="centerY" id="kdr-a8-aqu"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="ANG-be-Ahh"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Stations" image="list_24px" selectedImage="list_24px" id="2xR-xw-BvS"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KXB-oX-9Is" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1403" y="-417"/>
+        </scene>
+        <!--Profile-->
+        <scene sceneID="u71-aN-kdZ">
+            <objects>
+                <viewController id="dIS-Pw-UwL" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Y2W-BJ-y0g">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Profile is not implemented yet" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NGT-Ff-fNs">
+                                <rect key="frame" x="10" y="438" width="394" height="20"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="NGT-Ff-fNs" firstAttribute="leading" secondItem="hI4-NJ-5DS" secondAttribute="leading" constant="10" id="6ZV-bP-O4V"/>
+                            <constraint firstItem="NGT-Ff-fNs" firstAttribute="centerX" secondItem="Y2W-BJ-y0g" secondAttribute="centerX" id="74T-Kf-lpX"/>
+                            <constraint firstItem="NGT-Ff-fNs" firstAttribute="centerY" secondItem="Y2W-BJ-y0g" secondAttribute="centerY" id="NuB-Re-jc7"/>
+                            <constraint firstItem="hI4-NJ-5DS" firstAttribute="trailing" secondItem="NGT-Ff-fNs" secondAttribute="trailing" constant="10" id="rCd-az-ufr"/>
+                            <constraint firstItem="NGT-Ff-fNs" firstAttribute="centerY" secondItem="Y2W-BJ-y0g" secondAttribute="centerY" id="shs-0T-JYu"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="hI4-NJ-5DS"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Profile" image="perm_identity_24px" selectedImage="perm_identity_24px" id="ZiK-jR-yGn"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UVL-87-Znt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="724.63768115942037" y="-417.1875"/>
+        </scene>
+        <!--Reserve-->
+        <scene sceneID="2ti-6E-cMU">
+            <objects>
+                <viewController id="DiP-3F-Fvh" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="phO-6Z-nEB">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Reserve is not implemented yet" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QN4-F6-uB2">
+                                <rect key="frame" x="10" y="438" width="394" height="20"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="SaP-WF-Mqo" firstAttribute="trailing" secondItem="QN4-F6-uB2" secondAttribute="trailing" constant="10" id="ORc-9Q-23N"/>
+                            <constraint firstItem="QN4-F6-uB2" firstAttribute="centerX" secondItem="phO-6Z-nEB" secondAttribute="centerX" id="QLc-rc-RVp"/>
+                            <constraint firstItem="QN4-F6-uB2" firstAttribute="leading" secondItem="SaP-WF-Mqo" secondAttribute="leading" constant="10" id="X79-jc-xyZ"/>
+                            <constraint firstItem="QN4-F6-uB2" firstAttribute="centerY" secondItem="phO-6Z-nEB" secondAttribute="centerY" id="XDX-4j-e13"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="SaP-WF-Mqo"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Reserve" image="query_builder_24px" selectedImage="query_builder_24px" id="Jo2-c1-HpG"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WGL-KK-ItV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="13" y="-417"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="1LA-af-vb0">
+            <objects>
+                <tabBarController id="ybM-Yf-Xj7" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Q7l-vs-Pgw">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="dIS-Pw-UwL" kind="relationship" relationship="viewControllers" id="5BV-0z-mNc"/>
+                        <segue destination="DiP-3F-Fvh" kind="relationship" relationship="viewControllers" id="CAZ-ML-xW3"/>
+                        <segue destination="ZO2-bs-XTB" kind="relationship" relationship="viewControllers" id="RNw-al-LxF"/>
+                        <segue destination="jK1-jn-1xD" kind="relationship" relationship="viewControllers" id="21G-7c-ebb"/>
+                        <segue destination="0xa-OE-58f" kind="relationship" relationship="viewControllers" id="QY7-GV-ldk"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PrS-B8-ydt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-905" y="-93"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="forum_24px" width="24" height="24"/>
+        <image name="list_24px" width="24" height="24"/>
+        <image name="map_24px" width="24" height="24"/>
+        <image name="perm_identity_24px" width="16" height="16"/>
+        <image name="query_builder_24px" width="24" height="24"/>
+    </resources>
+</document>
