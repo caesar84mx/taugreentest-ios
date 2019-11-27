@@ -39,12 +39,17 @@ class MapViewController: UIViewController, CLLocationManagerDelegate, MapScreenV
         presenter.loadAvailablePoints()
     }
 
+    override func viewDidDisappear(_ animated: Bool) {
+        presenter.detach()
+    }
+
     func showPoints(coordinates: [Coordinates]) {
         coordinates.forEach { coord in
             let marker = GMSMarker()
             marker.position = CLLocationCoordinate2D(latitude: coord.lat, longitude: coord.lng)
             marker.title = "Charging Point Location"
             marker.snippet = "You are welcome here. Always."
+            marker.icon = UIImage(named: "marker")
             marker.map = self.map
         }
     }
@@ -62,9 +67,5 @@ class MapViewController: UIViewController, CLLocationManagerDelegate, MapScreenV
         map = GMSMapView.map(withFrame: CGRect.zero, camera: camera)
         map?.mapType = .normal
         view = map
-    }
-
-    override func viewDidDisappear(_ animated: Bool) {
-        presenter.detach()
     }
 }
