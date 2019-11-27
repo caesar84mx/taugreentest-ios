@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,22 @@
 		0862CD4E238DF24500B9872B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0862CD4D238DF24500B9872B /* Assets.xcassets */; };
 		0862CD51238DF24500B9872B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0862CD4F238DF24500B9872B /* LaunchScreen.storyboard */; };
 		0862CD63238E048800B9872B /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0862CD62238E048800B9872B /* MapViewController.swift */; };
+		08BCBE48238EBBD00022B8D2 /* ChargingLocationRaw.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08BCBE47238EBBD00022B8D2 /* ChargingLocationRaw.swift */; };
+		08BCBE4A238EBC190022B8D2 /* Connector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08BCBE49238EBC190022B8D2 /* Connector.swift */; };
+		08BCBE4C238EBC790022B8D2 /* Parking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08BCBE4B238EBC790022B8D2 /* Parking.swift */; };
+		08BCBE4E238EBCCE0022B8D2 /* CoordinatesRaw.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08BCBE4D238EBCCE0022B8D2 /* CoordinatesRaw.swift */; };
+		08BCBE51238EBD620022B8D2 /* EvseStatuses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08BCBE50238EBD620022B8D2 /* EvseStatuses.swift */; };
+		08BCBE53238EBD9F0022B8D2 /* OpeningHours.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08BCBE52238EBD9F0022B8D2 /* OpeningHours.swift */; };
+		08BCBE55238EBDC00022B8D2 /* Period.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08BCBE54238EBDC00022B8D2 /* Period.swift */; };
+		08BCBE57238EBDEF0022B8D2 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08BCBE56238EBDEF0022B8D2 /* Photo.swift */; };
+		08BCBE5C238EC4E00022B8D2 /* ChargingLocationApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08BCBE5B238EC4E00022B8D2 /* ChargingLocationApi.swift */; };
+		08BCBE5F238EC6B80022B8D2 /* ChargingLocationApiImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08BCBE5E238EC6B80022B8D2 /* ChargingLocationApiImpl.swift */; };
+		08BCBE64238ED20B0022B8D2 /* ApiRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08BCBE63238ED20B0022B8D2 /* ApiRouter.swift */; };
+		08BCBE68238ED4BD0022B8D2 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08BCBE67238ED4BD0022B8D2 /* Constants.swift */; };
+		08BCBE6A238EE7BF0022B8D2 /* ChargingLocationPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08BCBE69238EE7BF0022B8D2 /* ChargingLocationPoint.swift */; };
+		08DC2BB6238F049500E255B5 /* MapViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08DC2BB5238F049500E255B5 /* MapViewPresenter.swift */; };
+		08DC2BB8238F04DB00E255B5 /* MapViewPresenterImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08DC2BB7238F04DB00E255B5 /* MapViewPresenterImpl.swift */; };
+		08DC2BBA238F053B00E255B5 /* MapScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08DC2BB9238F053B00E255B5 /* MapScreenView.swift */; };
 		D93D747E19BA3F80B7850690 /* libPods-taugreentest-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B3B40EAD4568A746B72FCA4 /* libPods-taugreentest-ios.a */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +41,22 @@
 		0862CD50238DF24500B9872B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0862CD52238DF24500B9872B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0862CD62238E048800B9872B /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		08BCBE47238EBBD00022B8D2 /* ChargingLocationRaw.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChargingLocationRaw.swift; sourceTree = "<group>"; };
+		08BCBE49238EBC190022B8D2 /* Connector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Connector.swift; sourceTree = "<group>"; };
+		08BCBE4B238EBC790022B8D2 /* Parking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parking.swift; sourceTree = "<group>"; };
+		08BCBE4D238EBCCE0022B8D2 /* CoordinatesRaw.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatesRaw.swift; sourceTree = "<group>"; };
+		08BCBE50238EBD620022B8D2 /* EvseStatuses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EvseStatuses.swift; sourceTree = "<group>"; };
+		08BCBE52238EBD9F0022B8D2 /* OpeningHours.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpeningHours.swift; sourceTree = "<group>"; };
+		08BCBE54238EBDC00022B8D2 /* Period.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Period.swift; sourceTree = "<group>"; };
+		08BCBE56238EBDEF0022B8D2 /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		08BCBE5B238EC4E00022B8D2 /* ChargingLocationApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChargingLocationApi.swift; sourceTree = "<group>"; };
+		08BCBE5E238EC6B80022B8D2 /* ChargingLocationApiImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChargingLocationApiImpl.swift; sourceTree = "<group>"; };
+		08BCBE63238ED20B0022B8D2 /* ApiRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiRouter.swift; sourceTree = "<group>"; };
+		08BCBE67238ED4BD0022B8D2 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		08BCBE69238EE7BF0022B8D2 /* ChargingLocationPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChargingLocationPoint.swift; sourceTree = "<group>"; };
+		08DC2BB5238F049500E255B5 /* MapViewPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewPresenter.swift; sourceTree = "<group>"; };
+		08DC2BB7238F04DB00E255B5 /* MapViewPresenterImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewPresenterImpl.swift; sourceTree = "<group>"; };
+		08DC2BB9238F053B00E255B5 /* MapScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapScreenView.swift; sourceTree = "<group>"; };
 		14FA37EFA1E5F86C2F212B5B /* Pods-taugreentest-ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-taugreentest-ios.release.xcconfig"; path = "Target Support Files/Pods-taugreentest-ios/Pods-taugreentest-ios.release.xcconfig"; sourceTree = "<group>"; };
 		2B3B40EAD4568A746B72FCA4 /* libPods-taugreentest-ios.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-taugreentest-ios.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A030C98E2AB122AE904D8E17 /* Pods-taugreentest-ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-taugreentest-ios.debug.xcconfig"; path = "Target Support Files/Pods-taugreentest-ios/Pods-taugreentest-ios.debug.xcconfig"; sourceTree = "<group>"; };
@@ -75,6 +107,8 @@
 		0862CD58238DF24D00B9872B /* common */ = {
 			isa = PBXGroup;
 			children = (
+				08BCBE6B238EE86D0022B8D2 /* networking */,
+				08BCBE65238ED4940022B8D2 /* data */,
 				0862CD60238DF2FF00B9872B /* app */,
 			);
 			path = common;
@@ -83,6 +117,7 @@
 		0862CD59238DF25A00B9872B /* mainscreen */ = {
 			isa = PBXGroup;
 			children = (
+				0862CD61238DF30F00B9872B /* model */,
 				0862CD5D238DF2C600B9872B /* mapview */,
 				0862CD5A238DF27F00B9872B /* view */,
 			);
@@ -100,7 +135,6 @@
 		0862CD5D238DF2C600B9872B /* mapview */ = {
 			isa = PBXGroup;
 			children = (
-				0862CD61238DF30F00B9872B /* model */,
 				0862CD5F238DF2DC00B9872B /* presenter */,
 				0862CD5E238DF2D000B9872B /* view */,
 			);
@@ -111,6 +145,7 @@
 			isa = PBXGroup;
 			children = (
 				0862CD62238E048800B9872B /* MapViewController.swift */,
+				08DC2BB9238F053B00E255B5 /* MapScreenView.swift */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -118,6 +153,8 @@
 		0862CD5F238DF2DC00B9872B /* presenter */ = {
 			isa = PBXGroup;
 			children = (
+				08DC2BB5238F049500E255B5 /* MapViewPresenter.swift */,
+				08DC2BB7238F04DB00E255B5 /* MapViewPresenterImpl.swift */,
 			);
 			path = presenter;
 			sourceTree = "<group>";
@@ -134,8 +171,51 @@
 		0862CD61238DF30F00B9872B /* model */ = {
 			isa = PBXGroup;
 			children = (
+				08BCBE45238EBBAB0022B8D2 /* networking */,
 			);
 			path = model;
+			sourceTree = "<group>";
+		};
+		08BCBE45238EBBAB0022B8D2 /* networking */ = {
+			isa = PBXGroup;
+			children = (
+				08BCBE46238EBBC00022B8D2 /* data */,
+				08BCBE5B238EC4E00022B8D2 /* ChargingLocationApi.swift */,
+				08BCBE5E238EC6B80022B8D2 /* ChargingLocationApiImpl.swift */,
+			);
+			path = networking;
+			sourceTree = "<group>";
+		};
+		08BCBE46238EBBC00022B8D2 /* data */ = {
+			isa = PBXGroup;
+			children = (
+				08BCBE47238EBBD00022B8D2 /* ChargingLocationRaw.swift */,
+				08BCBE49238EBC190022B8D2 /* Connector.swift */,
+				08BCBE4B238EBC790022B8D2 /* Parking.swift */,
+				08BCBE4D238EBCCE0022B8D2 /* CoordinatesRaw.swift */,
+				08BCBE50238EBD620022B8D2 /* EvseStatuses.swift */,
+				08BCBE52238EBD9F0022B8D2 /* OpeningHours.swift */,
+				08BCBE54238EBDC00022B8D2 /* Period.swift */,
+				08BCBE56238EBDEF0022B8D2 /* Photo.swift */,
+				08BCBE69238EE7BF0022B8D2 /* ChargingLocationPoint.swift */,
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+		08BCBE65238ED4940022B8D2 /* data */ = {
+			isa = PBXGroup;
+			children = (
+				08BCBE67238ED4BD0022B8D2 /* Constants.swift */,
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+		08BCBE6B238EE86D0022B8D2 /* networking */ = {
+			isa = PBXGroup;
+			children = (
+				08BCBE63238ED20B0022B8D2 /* ApiRouter.swift */,
+			);
+			path = networking;
 			sourceTree = "<group>";
 		};
 		0D828C6A4E033AEF5A105783 /* Frameworks */ = {
@@ -152,7 +232,6 @@
 				A030C98E2AB122AE904D8E17 /* Pods-taugreentest-ios.debug.xcconfig */,
 				14FA37EFA1E5F86C2F212B5B /* Pods-taugreentest-ios.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -271,9 +350,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08BCBE55238EBDC00022B8D2 /* Period.swift in Sources */,
+				08DC2BBA238F053B00E255B5 /* MapScreenView.swift in Sources */,
 				0862CD45238DF24300B9872B /* AppDelegate.swift in Sources */,
+				08BCBE4A238EBC190022B8D2 /* Connector.swift in Sources */,
 				0862CD63238E048800B9872B /* MapViewController.swift in Sources */,
+				08BCBE5F238EC6B80022B8D2 /* ChargingLocationApiImpl.swift in Sources */,
+				08BCBE68238ED4BD0022B8D2 /* Constants.swift in Sources */,
+				08BCBE5C238EC4E00022B8D2 /* ChargingLocationApi.swift in Sources */,
+				08BCBE4E238EBCCE0022B8D2 /* CoordinatesRaw.swift in Sources */,
+				08BCBE51238EBD620022B8D2 /* EvseStatuses.swift in Sources */,
+				08DC2BB6238F049500E255B5 /* MapViewPresenter.swift in Sources */,
+				08BCBE48238EBBD00022B8D2 /* ChargingLocationRaw.swift in Sources */,
+				08BCBE57238EBDEF0022B8D2 /* Photo.swift in Sources */,
+				08DC2BB8238F04DB00E255B5 /* MapViewPresenterImpl.swift in Sources */,
 				0862CD47238DF24300B9872B /* SceneDelegate.swift in Sources */,
+				08BCBE6A238EE7BF0022B8D2 /* ChargingLocationPoint.swift in Sources */,
+				08BCBE53238EBD9F0022B8D2 /* OpeningHours.swift in Sources */,
+				08BCBE4C238EBC790022B8D2 /* Parking.swift in Sources */,
+				08BCBE64238ED20B0022B8D2 /* ApiRouter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
