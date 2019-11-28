@@ -43,14 +43,14 @@ class MapViewController: UIViewController, CLLocationManagerDelegate, MapScreenV
         presenter.detach()
     }
 
-    func showPoints(coordinates: [Coordinates]) {
-        coordinates.forEach { coord in
-            let marker = GMSMarker()
-            marker.position = CLLocationCoordinate2D(latitude: coord.lat, longitude: coord.lng)
-            marker.title = "Charging Point Location"
-            marker.snippet = "You are welcome here. Always."
-            marker.icon = UIImage(named: "marker")
-            marker.map = self.map
+    func showPoints(markers: [CLMarkerUI]) {
+        markers.forEach { marker in
+            let gmsMarker = GMSMarker()
+            gmsMarker.position = CLLocationCoordinate2D(latitude: marker.latitude, longitude: marker.longitude)
+            gmsMarker.title = "Charging Point Location"
+            gmsMarker.snippet = "You are welcome here. Always."
+            gmsMarker.icon = UIImage(named: "marker")
+            gmsMarker.map = self.map
         }
     }
 

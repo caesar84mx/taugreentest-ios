@@ -11,7 +11,7 @@ import Foundation
 class MapViewPresenterImpl: MapViewPresenter {
     private weak var view: MapScreenView? = nil
 
-    private let apiClient: ChargingLocationApi = ChargingLocationApiImpl()
+    private let repository = ChargingLocationsRepository()
 
     func attach(view: MapScreenView) {
         self.view = view
@@ -22,12 +22,8 @@ class MapViewPresenterImpl: MapViewPresenter {
     }
 
     func loadAvailablePoints() {
-        apiClient.getChargingLocations(onSuccess: { points in
-            print("\(points.count) points loaded")
-            let coords = points.map { $0.coordinates }
-            self.view?.showPoints(coordinates: coords)
-        }, onError: { error in
-            print("An error occurred on points loading: \(error.errorDescription ?? "no description")")
-        })
+        let entities = repository.get()
+        let result = entities.map { entity in CLMarkerUI(latitude: entity.coordinates?.lat ?? 0.0, longitude: entity.coordinates?.lng ?? 0.0) }
+        self.view?.showPoints(markers: result)
     }
 }

@@ -143,10 +143,10 @@
             </objects>
             <point key="canvasLocation" x="13" y="-417"/>
         </scene>
-        <!--Tab Bar Controller-->
+        <!--Main Screen Tab Bar Controller-->
         <scene sceneID="1LA-af-vb0">
             <objects>
-                <tabBarController id="ybM-Yf-Xj7" sceneMemberID="viewController">
+                <tabBarController id="ybM-Yf-Xj7" customClass="MainScreenTabBarController" customModule="taugreentest_ios" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Q7l-vs-Pgw">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>

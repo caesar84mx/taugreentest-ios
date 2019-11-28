@@ -8,6 +8,6 @@
 
 import Foundation
 
-struct EvseStatuses: Codable {
+struct EvseStatus: Codable {
     let available, busy, offline, faulted: Int
 }

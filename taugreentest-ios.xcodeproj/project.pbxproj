@@ -13,11 +13,23 @@
 		0862CD4E238DF24500B9872B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0862CD4D238DF24500B9872B /* Assets.xcassets */; };
 		0862CD51238DF24500B9872B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0862CD4F238DF24500B9872B /* LaunchScreen.storyboard */; };
 		0862CD63238E048800B9872B /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0862CD62238E048800B9872B /* MapViewController.swift */; };
+		0881C79D239038F600169C5E /* ChargingLocationEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0881C79C239038F600169C5E /* ChargingLocationEntity.swift */; };
+		0881C79F23903B0F00169C5E /* CoordinatesEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0881C79E23903B0F00169C5E /* CoordinatesEntity.swift */; };
+		0881C7A123903BA400169C5E /* OpeningHoursEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0881C7A023903BA400169C5E /* OpeningHoursEntity.swift */; };
+		0881C7A323903C0500169C5E /* PeriodEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0881C7A223903C0500169C5E /* PeriodEntity.swift */; };
+		0881C7A523903C8600169C5E /* EvseStatusEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0881C7A423903C8600169C5E /* EvseStatusEntity.swift */; };
+		0881C7A723903CF300169C5E /* ConnectorEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0881C7A623903CF300169C5E /* ConnectorEntity.swift */; };
+		0881C7A923903DB300169C5E /* ParkingEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0881C7A823903DB300169C5E /* ParkingEntity.swift */; };
+		0881C7AB23903E0600169C5E /* PhotoEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0881C7AA23903E0600169C5E /* PhotoEntity.swift */; };
+		0881C7AD23903E6500169C5E /* ChargingLocationPointEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0881C7AC23903E6500169C5E /* ChargingLocationPointEntity.swift */; };
+		0881C7B0239042BB00169C5E /* ChargingLocationsRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0881C7AF239042BB00169C5E /* ChargingLocationsRepository.swift */; };
+		0881C7BD23905F1100169C5E /* CLMarkerUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0881C7BC23905F1100169C5E /* CLMarkerUI.swift */; };
+		0881C7BF2390764100169C5E /* MainScreenTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0881C7BE2390764100169C5E /* MainScreenTabBarController.swift */; };
 		08BCBE48238EBBD00022B8D2 /* ChargingLocationRaw.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08BCBE47238EBBD00022B8D2 /* ChargingLocationRaw.swift */; };
 		08BCBE4A238EBC190022B8D2 /* Connector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08BCBE49238EBC190022B8D2 /* Connector.swift */; };
 		08BCBE4C238EBC790022B8D2 /* Parking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08BCBE4B238EBC790022B8D2 /* Parking.swift */; };
 		08BCBE4E238EBCCE0022B8D2 /* CoordinatesRaw.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08BCBE4D238EBCCE0022B8D2 /* CoordinatesRaw.swift */; };
-		08BCBE51238EBD620022B8D2 /* EvseStatuses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08BCBE50238EBD620022B8D2 /* EvseStatuses.swift */; };
+		08BCBE51238EBD620022B8D2 /* EvseStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08BCBE50238EBD620022B8D2 /* EvseStatus.swift */; };
 		08BCBE53238EBD9F0022B8D2 /* OpeningHours.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08BCBE52238EBD9F0022B8D2 /* OpeningHours.swift */; };
 		08BCBE55238EBDC00022B8D2 /* Period.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08BCBE54238EBDC00022B8D2 /* Period.swift */; };
 		08BCBE57238EBDEF0022B8D2 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08BCBE56238EBDEF0022B8D2 /* Photo.swift */; };
@@ -29,7 +41,7 @@
 		08DC2BB6238F049500E255B5 /* MapViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08DC2BB5238F049500E255B5 /* MapViewPresenter.swift */; };
 		08DC2BB8238F04DB00E255B5 /* MapViewPresenterImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08DC2BB7238F04DB00E255B5 /* MapViewPresenterImpl.swift */; };
 		08DC2BBA238F053B00E255B5 /* MapScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08DC2BB9238F053B00E255B5 /* MapScreenView.swift */; };
-		D93D747E19BA3F80B7850690 /* libPods-taugreentest-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B3B40EAD4568A746B72FCA4 /* libPods-taugreentest-ios.a */; };
+		58C7953AB18410A34BA46758 /* Pods_taugreentest_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B9E0400164A2EBF3ED14972 /* Pods_taugreentest_ios.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,11 +53,23 @@
 		0862CD50238DF24500B9872B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0862CD52238DF24500B9872B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0862CD62238E048800B9872B /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		0881C79C239038F600169C5E /* ChargingLocationEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChargingLocationEntity.swift; sourceTree = "<group>"; };
+		0881C79E23903B0F00169C5E /* CoordinatesEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatesEntity.swift; sourceTree = "<group>"; };
+		0881C7A023903BA400169C5E /* OpeningHoursEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpeningHoursEntity.swift; sourceTree = "<group>"; };
+		0881C7A223903C0500169C5E /* PeriodEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeriodEntity.swift; sourceTree = "<group>"; };
+		0881C7A423903C8600169C5E /* EvseStatusEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EvseStatusEntity.swift; sourceTree = "<group>"; };
+		0881C7A623903CF300169C5E /* ConnectorEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectorEntity.swift; sourceTree = "<group>"; };
+		0881C7A823903DB300169C5E /* ParkingEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkingEntity.swift; sourceTree = "<group>"; };
+		0881C7AA23903E0600169C5E /* PhotoEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoEntity.swift; sourceTree = "<group>"; };
+		0881C7AC23903E6500169C5E /* ChargingLocationPointEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChargingLocationPointEntity.swift; sourceTree = "<group>"; };
+		0881C7AF239042BB00169C5E /* ChargingLocationsRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChargingLocationsRepository.swift; sourceTree = "<group>"; };
+		0881C7BC23905F1100169C5E /* CLMarkerUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CLMarkerUI.swift; sourceTree = "<group>"; };
+		0881C7BE2390764100169C5E /* MainScreenTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenTabBarController.swift; sourceTree = "<group>"; };
 		08BCBE47238EBBD00022B8D2 /* ChargingLocationRaw.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChargingLocationRaw.swift; sourceTree = "<group>"; };
 		08BCBE49238EBC190022B8D2 /* Connector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Connector.swift; sourceTree = "<group>"; };
 		08BCBE4B238EBC790022B8D2 /* Parking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parking.swift; sourceTree = "<group>"; };
 		08BCBE4D238EBCCE0022B8D2 /* CoordinatesRaw.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatesRaw.swift; sourceTree = "<group>"; };
-		08BCBE50238EBD620022B8D2 /* EvseStatuses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EvseStatuses.swift; sourceTree = "<group>"; };
+		08BCBE50238EBD620022B8D2 /* EvseStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EvseStatus.swift; sourceTree = "<group>"; };
 		08BCBE52238EBD9F0022B8D2 /* OpeningHours.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpeningHours.swift; sourceTree = "<group>"; };
 		08BCBE54238EBDC00022B8D2 /* Period.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Period.swift; sourceTree = "<group>"; };
 		08BCBE56238EBDEF0022B8D2 /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
@@ -58,7 +82,7 @@
 		08DC2BB7238F04DB00E255B5 /* MapViewPresenterImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewPresenterImpl.swift; sourceTree = "<group>"; };
 		08DC2BB9238F053B00E255B5 /* MapScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapScreenView.swift; sourceTree = "<group>"; };
 		14FA37EFA1E5F86C2F212B5B /* Pods-taugreentest-ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-taugreentest-ios.release.xcconfig"; path = "Target Support Files/Pods-taugreentest-ios/Pods-taugreentest-ios.release.xcconfig"; sourceTree = "<group>"; };
-		2B3B40EAD4568A746B72FCA4 /* libPods-taugreentest-ios.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-taugreentest-ios.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B9E0400164A2EBF3ED14972 /* Pods_taugreentest_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_taugreentest_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A030C98E2AB122AE904D8E17 /* Pods-taugreentest-ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-taugreentest-ios.debug.xcconfig"; path = "Target Support Files/Pods-taugreentest-ios/Pods-taugreentest-ios.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -67,7 +91,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D93D747E19BA3F80B7850690 /* libPods-taugreentest-ios.a in Frameworks */,
+				58C7953AB18410A34BA46758 /* Pods_taugreentest_ios.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -128,6 +152,7 @@
 			isa = PBXGroup;
 			children = (
 				0862CD4A238DF24300B9872B /* Main.storyboard */,
+				0881C7BE2390764100169C5E /* MainScreenTabBarController.swift */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -135,6 +160,7 @@
 		0862CD5D238DF2C600B9872B /* mapview */ = {
 			isa = PBXGroup;
 			children = (
+				0881C7BB23905EE300169C5E /* model */,
 				0862CD5F238DF2DC00B9872B /* presenter */,
 				0862CD5E238DF2D000B9872B /* view */,
 			);
@@ -171,7 +197,41 @@
 		0862CD61238DF30F00B9872B /* model */ = {
 			isa = PBXGroup;
 			children = (
+				0881C7AE2390429400169C5E /* repositories */,
+				0881C79B239034D900169C5E /* entities */,
 				08BCBE45238EBBAB0022B8D2 /* networking */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		0881C79B239034D900169C5E /* entities */ = {
+			isa = PBXGroup;
+			children = (
+				0881C79C239038F600169C5E /* ChargingLocationEntity.swift */,
+				0881C79E23903B0F00169C5E /* CoordinatesEntity.swift */,
+				0881C7A023903BA400169C5E /* OpeningHoursEntity.swift */,
+				0881C7A223903C0500169C5E /* PeriodEntity.swift */,
+				0881C7A823903DB300169C5E /* ParkingEntity.swift */,
+				0881C7AA23903E0600169C5E /* PhotoEntity.swift */,
+				0881C7AC23903E6500169C5E /* ChargingLocationPointEntity.swift */,
+				0881C7A423903C8600169C5E /* EvseStatusEntity.swift */,
+				0881C7A623903CF300169C5E /* ConnectorEntity.swift */,
+			);
+			path = entities;
+			sourceTree = "<group>";
+		};
+		0881C7AE2390429400169C5E /* repositories */ = {
+			isa = PBXGroup;
+			children = (
+				0881C7AF239042BB00169C5E /* ChargingLocationsRepository.swift */,
+			);
+			path = repositories;
+			sourceTree = "<group>";
+		};
+		0881C7BB23905EE300169C5E /* model */ = {
+			isa = PBXGroup;
+			children = (
+				0881C7BC23905F1100169C5E /* CLMarkerUI.swift */,
 			);
 			path = model;
 			sourceTree = "<group>";
@@ -193,7 +253,7 @@
 				08BCBE49238EBC190022B8D2 /* Connector.swift */,
 				08BCBE4B238EBC790022B8D2 /* Parking.swift */,
 				08BCBE4D238EBCCE0022B8D2 /* CoordinatesRaw.swift */,
-				08BCBE50238EBD620022B8D2 /* EvseStatuses.swift */,
+				08BCBE50238EBD620022B8D2 /* EvseStatus.swift */,
 				08BCBE52238EBD9F0022B8D2 /* OpeningHours.swift */,
 				08BCBE54238EBDC00022B8D2 /* Period.swift */,
 				08BCBE56238EBDEF0022B8D2 /* Photo.swift */,
@@ -221,7 +281,7 @@
 		0D828C6A4E033AEF5A105783 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				2B3B40EAD4568A746B72FCA4 /* libPods-taugreentest-ios.a */,
+				8B9E0400164A2EBF3ED14972 /* Pods_taugreentest_ios.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -247,6 +307,7 @@
 				0862CD3E238DF24300B9872B /* Frameworks */,
 				0862CD3F238DF24300B9872B /* Resources */,
 				10F56D77150AFDE805DA18ED /* [CP] Copy Pods Resources */,
+				BDC9EF837BF3096B6A8FC7EB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -321,6 +382,23 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-taugreentest-ios/Pods-taugreentest-ios-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		BDC9EF837BF3096B6A8FC7EB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-taugreentest-ios/Pods-taugreentest-ios-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-taugreentest-ios/Pods-taugreentest-ios-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-taugreentest-ios/Pods-taugreentest-ios-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		E7EB999F241468876EC90994 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -354,21 +432,33 @@
 				08DC2BBA238F053B00E255B5 /* MapScreenView.swift in Sources */,
 				0862CD45238DF24300B9872B /* AppDelegate.swift in Sources */,
 				08BCBE4A238EBC190022B8D2 /* Connector.swift in Sources */,
+				0881C79D239038F600169C5E /* ChargingLocationEntity.swift in Sources */,
+				0881C79F23903B0F00169C5E /* CoordinatesEntity.swift in Sources */,
 				0862CD63238E048800B9872B /* MapViewController.swift in Sources */,
 				08BCBE5F238EC6B80022B8D2 /* ChargingLocationApiImpl.swift in Sources */,
+				0881C7B0239042BB00169C5E /* ChargingLocationsRepository.swift in Sources */,
+				0881C7BD23905F1100169C5E /* CLMarkerUI.swift in Sources */,
+				0881C7A323903C0500169C5E /* PeriodEntity.swift in Sources */,
+				0881C7AD23903E6500169C5E /* ChargingLocationPointEntity.swift in Sources */,
 				08BCBE68238ED4BD0022B8D2 /* Constants.swift in Sources */,
+				0881C7BF2390764100169C5E /* MainScreenTabBarController.swift in Sources */,
 				08BCBE5C238EC4E00022B8D2 /* ChargingLocationApi.swift in Sources */,
 				08BCBE4E238EBCCE0022B8D2 /* CoordinatesRaw.swift in Sources */,
-				08BCBE51238EBD620022B8D2 /* EvseStatuses.swift in Sources */,
+				08BCBE51238EBD620022B8D2 /* EvseStatus.swift in Sources */,
+				0881C7A523903C8600169C5E /* EvseStatusEntity.swift in Sources */,
 				08DC2BB6238F049500E255B5 /* MapViewPresenter.swift in Sources */,
 				08BCBE48238EBBD00022B8D2 /* ChargingLocationRaw.swift in Sources */,
 				08BCBE57238EBDEF0022B8D2 /* Photo.swift in Sources */,
+				0881C7AB23903E0600169C5E /* PhotoEntity.swift in Sources */,
 				08DC2BB8238F04DB00E255B5 /* MapViewPresenterImpl.swift in Sources */,
+				0881C7A723903CF300169C5E /* ConnectorEntity.swift in Sources */,
 				0862CD47238DF24300B9872B /* SceneDelegate.swift in Sources */,
 				08BCBE6A238EE7BF0022B8D2 /* ChargingLocationPoint.swift in Sources */,
 				08BCBE53238EBD9F0022B8D2 /* OpeningHours.swift in Sources */,
 				08BCBE4C238EBC790022B8D2 /* Parking.swift in Sources */,
 				08BCBE64238ED20B0022B8D2 /* ApiRouter.swift in Sources */,
+				0881C7A123903BA400169C5E /* OpeningHoursEntity.swift in Sources */,
+				0881C7A923903DB300169C5E /* ParkingEntity.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

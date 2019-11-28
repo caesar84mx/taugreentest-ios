@@ -17,7 +17,7 @@ struct ChargingLocation: Codable {
     let createdAt: Date
     let openingHours: OpeningHours
     let numberOfStations: Int
-    let evseStatuses: EvseStatuses
+    let evseStatuses: EvseStatus
     let connectors: [Connector]
     let photos: [Photo]
     let updatedAt: Date

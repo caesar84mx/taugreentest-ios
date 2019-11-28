@@ -11,7 +11,7 @@ import Foundation
 struct ChargingLocationPoint: Codable {
     let id: String
     let coordinates: Coordinates
-    let evseStatuses: EvseStatuses
+    let evseStatuses: EvseStatus
 
     enum CodingKeys: String, CodingKey {
         case id, coordinates

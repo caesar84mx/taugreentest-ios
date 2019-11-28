@@ -9,5 +9,5 @@
 import Foundation
 
 protocol MapScreenView: class {
-    func showPoints(coordinates: [Coordinates])
+    func showPoints(markers: [CLMarkerUI])
 }
